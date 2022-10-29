@@ -35,7 +35,7 @@ public:
 		data = second.data;
 		second.data = nullptr;
 	}
-	//Деконструктор.
+	//Деструктор.
 	~MyString() {
 		delete[] data;
 	}
